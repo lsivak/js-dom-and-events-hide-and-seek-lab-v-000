@@ -4,6 +4,6 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  const tar = document.querySelector(#nested)
+  const tar = document.querySelector('#nested')
   return tar
 }
