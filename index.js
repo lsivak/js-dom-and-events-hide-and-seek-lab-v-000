@@ -9,6 +9,6 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  return document.querySelectorAll('ranked-list li') + Math.abs(n)
+  return document.querySelectorAll('ul.ranked-list li') + Math.abs(n)
 
 }
