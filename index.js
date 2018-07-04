@@ -19,6 +19,6 @@ function increaseRankBy(n) {
 function deepestChild() {
   const nested = document.querySelectorAll('div#grand-node div')
 
-const children = document.querySelectorAll('nested')
+const children = document.querySelectorAll('nested div#node div')
 return children
 }
